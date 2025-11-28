@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amrutha K R - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Hi — I'm Amrutha K R</h1>
+    <p>Motivated 3rd year Computer Science student seeking internship or project opportunities in software development.</p>
+    <a href="#project" class="btn">View Projects</a>
+  </section>
+
+  <section id="profile">
+    <div class="profile-container">
+      <img src="profile.jpg" alt="Amrutha's Photo" class="profile-pic">
+      <div class="profile-text">
+        <p>Motivated 3rd year Computer Science student seeking internship or project opportunities in software development, aiming to apply technical knowledge and problem-solving skills.</p>
+        <p><strong>Location:</strong> Hassan, Karnataka, India</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: Python, Java, C</li>
+      <li>Core Subjects: Data Structures, Operating Systems</li>
+      <li>Web Technology: HTML</li>
+      <li>Other Skills: Debugging, Logical Thinking</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>B.E. (Computer Science) – Malnad College of Engineering, Hassan (2023–2027)</li>
+      <li>PUC – Christ the King PU College, K.R. Pet (2020–2022)</li>
+      <li>SSLC – KPS School, Kikkeri</li>
+    </ul>
+  </section>
+
+  <section id="project">
+    <h2>Project</h2>
+    <p><strong>IoT-Based Irrigation System:</strong> Created a smart irrigation system using IoT sensors to monitor soil moisture and control the water flow automatically, helping reduce water usage and manual work.</p>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><a href="resume.pdf" download>📄 Download Full Resume (PDF)</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="contact.php" method="POST" onsubmit="return validateForm()">
+      <input type="text" name="name" id="name" placeholder="Your Name" required>
+      <input type="email" name="email" id="email" placeholder="Your Email" required>
+      <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
